@@ -20,8 +20,8 @@ namespace UsersAPI.Moq
             // Arrange
             _userRepository = new Mock<IRepository>();
         }
-        #region GetUsers Tests
 
+        #region GetUsers Tests
         [Fact]
         public async Task GetAllAsync_WhenUsersExist_ReturnsAllUsers()
         {
